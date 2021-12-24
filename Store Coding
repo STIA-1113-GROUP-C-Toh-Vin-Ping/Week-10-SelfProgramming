@@ -1,0 +1,16 @@
+package onlineClass;
+
+public class StoreArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num[] = new int[10];
+		
+		num[1] = 5;
+		num[2]=12;
+		
+		System.out.println(num[2]);
+		
+	}
+
+}
