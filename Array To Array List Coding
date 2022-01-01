@@ -1,0 +1,14 @@
+package selfProgramming;
+import java.util.ArrayList;
+import java.util.Arrays;
+public class ArrayToArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[]  my_array = new String[] {"Toh", "Chia", "Hi",  "Congrats", "Hope", "Meet Again"};
+		  ArrayList<String>  list = new ArrayList<String>(Arrays.asList(my_array));
+		  
+		  System.out.println(list);
+	}
+
+}
