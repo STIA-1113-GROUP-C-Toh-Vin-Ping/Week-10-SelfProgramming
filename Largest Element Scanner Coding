@@ -1,0 +1,27 @@
+package onlineClass;
+import java.util.Scanner;
+public class LargestNumberScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		   Scanner sc = new Scanner(System.in);
+	        
+	        double[] a = new double[5];
+	        int index, maxIndex;
+	        double largestNum;
+	        maxIndex = 0;
+	        
+	        System.out.print("Enter 5 array elements : ");
+	        for(int i = 0; i < a.length;i++)
+	            a[i] = sc.nextDouble();
+	            
+	        for(index = 1; index<a.length; index++)
+	            if(a[maxIndex] < a[index])
+	            maxIndex = index;
+	        System.out.println(maxIndex);
+	        largestNum = a[maxIndex];
+	        
+	        System.out.println(largestNum);
+	}
+
+}
