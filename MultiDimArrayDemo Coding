@@ -1,0 +1,29 @@
+package onlineClass;
+
+public class MultiDimArrayDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int totalsum;
+		int sum;
+		int a[][]= {
+				{1, 2, 30},
+				{2, 7,  9},
+				{20,10,30}};
+				
+	totalsum=0;
+		for(int x=0;x<a.length;x++)
+		{
+			sum=0;
+			
+			for(int y=0;y<a.length;y++)
+			sum = sum + a[x][y];
+		
+		totalsum+=sum;
+		
+		System.out.println("sum" + sum);
+		System.out.println("t"+totalsum);
+	
+	}
+	}
+}
